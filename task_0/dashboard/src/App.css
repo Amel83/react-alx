@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  color: white;
+}
+
+.App-logo {
+  height: 27vmin;
+  pointer-events: none;
+}
+
+.App-title {
+  margin-left: 10px;
+  background-color: white;
+  color: rgb(235, 16, 16);
+  font-size: 24px;
+}
+
+.App-body {
+  background-color: white;
+  margin: 20px;
+  font-size: 18px;
+
+  flex: 1;
+}
+.App-footer {
+  background-color: #f1f4f8;
+  padding: 10px;
+  color: rgb(14, 13, 13);
+  text-align: center;
+  position: relative; /* To position the line-break correctly */
+}
+
+.footer-text {
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+}
+
+.line-break {
+  display: block;
+  height: 2px; /* Line thickness */
+  background-color: red; /* Line color */
+  margin-bottom: 10px; /* Space below the line */
+}
+
+/* src/App.css */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+label {
+  margin: 5px 0;
+}
+
+input {
+  margin: 5px 0;
+  padding: 8px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
